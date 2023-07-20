@@ -22,6 +22,11 @@
 
 https://www.npmjs.com/package/json-server
 
+- Crear y configurar un archivo de variables de entorno (.env):
+
+  VITE_API_URL = http://localhost:3000/clientes
+  VITE_DB_USUARIO = root
+
 - Inicializar JSON Server:
 
 json-server --watch db.json
